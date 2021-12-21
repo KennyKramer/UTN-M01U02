@@ -1,3 +1,6 @@
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 h1{
   color: darkslategrey;
   font-size: 40px;
@@ -12,6 +15,19 @@ h3{
   font-size: 100%;
 }
 .answers{
-  text-emphasis: "o";
+  text-emphasis: "o" green;
   text-emphasis-position: under right;
+
+}
+ul{
+  color: darkblue;
+}
+h5{
+  font-size: 1.25rem;
+}
+p{
+  font-size: 1rem;
+}
+footer{
+  font-size: small;
 }
