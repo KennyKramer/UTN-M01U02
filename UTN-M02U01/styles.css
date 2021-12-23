@@ -1,23 +1,30 @@
 body{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
 h1{
   color: darkslategrey;
   font-size: 40px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 h2{
-  color: darkolivegreen;
+  
+}
+#age{
+  height: 30px;
 }
 h3{
-  text-decoration: underline dotted darkcyan;
-  text-decoration-thickness: 3px;
-  font-size: 100%;
+  
 }
-.answers{
-  text-emphasis: "o" green;
-  text-emphasis-position: under right;
+#address{
+  height: 30px;
+}
+h4{
 
+}
+#music{
+  height: 30px;
+}
+#movie{
+  height: 30px;
 }
 ul{
   color: darkblue;
@@ -25,9 +32,15 @@ ul{
 h5{
   font-size: 1.25rem;
 }
+#profile{
+  height: 30px;
+}
 p{
   font-size: 1rem;
 }
 footer{
   font-size: small;
+}
+#letter{
+  height: 30px;
 }
