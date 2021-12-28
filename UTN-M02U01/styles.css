@@ -1,24 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap');
 body{
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  font-family: 'Bungee Hairline', cursive;
+  font-weight: 1000;
+  font-size: 25px;
+  padding: 0;
+  
 }
 h1{
   color: darkslategrey;
-  font-size: 40px;
+  font-size: 37px;
+  background-color: beige;
+  margin: 5px;
 }
 h2{
-  
+  font-size: 1.75rem;
+  background-color: beige;
+  margin: 5px;
 }
 #age{
   height: 30px;
 }
 h3{
-  
+  font-size: 1.5rem;
+  background-color: beige;
+  margin: 5px;
 }
 #address{
   height: 30px;
 }
 h4{
-
+  padding: 0 auto auto 0;
+  background-color: beige;
+  font-size: minmax(5, 7);
 }
 #music{
   height: 30px;
@@ -28,15 +41,21 @@ h4{
 }
 ul{
   color: darkblue;
+  background-color: palegoldenrod;
+  padding: 0 auto auto 0;
+  
 }
 h5{
-  font-size: 1.25rem;
+  font-size: 1.5rem;
+  margin-top: 5px;
 }
 #profile{
   height: 30px;
+  
 }
 p{
   font-size: 1rem;
+  margin-top: 0;
 }
 footer{
   font-size: small;
