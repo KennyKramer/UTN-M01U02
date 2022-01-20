@@ -2,35 +2,28 @@ body {
 	padding:0;
 	margin:0;
 }
-.contenedor {
+div {
 	background: #8FA68E;
-	width:100%;
+	width: 100%;
+	grid-template-areas:
+	'header header header'
+	'nav nav nav'
+	'section section section'
+	'aside aside aside';
 }
 nav {
+    width: 100%;
 	background: #FC6;
-	float:none;
-	width:100%;
+	border-bottom: solid black 1.5px;
+	display: grid;
 }
-nav ul {
-	margin:0;
-}
-nav ul li a {
-	padding: 0.5em;
-	display: block;
+a {
 	color:#000;
 }
 section {
-	border-top: solid black 0.1em;
-	float:none;
-	padding: 0.9em;
-	width:100%;
-	margin-left:0;
+	border-bottom: solid black 1.5px;
 }
 aside {
-	border-top: solid black 0.1em;
-	float:none;
-	padding: 0.8em;
-	width:100%;
-	margin-left:0;
+	margin-left: 0;
 }
 

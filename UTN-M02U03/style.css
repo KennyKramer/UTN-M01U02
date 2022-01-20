@@ -1,35 +1,46 @@
-body {
+html, body {
+	width: 100%;
 	color: #000;
 	background: #332F29;
 	font-size:100%;
 }
-#contenedor {
+div {
 	width: 800px;
 	background: #8FA68E;
-	margin-right:auto;
-	margin-left:auto;
-	overflow: hidden;
+	display: grid;
+    grid-template-columns: 20% auto 30%;
+    grid-template-rows: 80px auto;
+    grid-template-areas: 
+    "header header header"
+    "nav section aside"
+	"nav section aside"
+	"nav section aside";
+}
+header {
+	grid-area: header;
 }
 nav {
+    grid-area: nav;
 	background: #CC3910;
-	float: left;
-	width: 160px;
-}
-ul {
-	list-style-type:none;
+	padding: 1em;
+    height: fit-content;
+	margin-right: 20px;
 }
 a {
+	margin:auto auto 0.7em 1em;
+    text-decoration: none;
 	color:#F1F2C0;
-	text-decoration: none;
 }
 section {
+    grid-area: section;
 	background: #F1F2C0;
-	float: left;
-	margin: 0 0 0 25px;
-	width: 400px;
+	padding: 0.5em;
+	height: fit-content;
 }
 aside {
+    grid-area: aside;
 	background: #CCC59E;
-	float: right;
-	width: 190px;
+	padding: 0.5em;
+	height: fit-content;
+	margin-left: 20px;
 }
