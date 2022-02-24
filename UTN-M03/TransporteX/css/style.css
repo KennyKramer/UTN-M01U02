@@ -1,0 +1,186 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+header{
+    background-color: #2e64a1;
+    padding: 1em 0;
+}
+header h1{ 
+    color: #ffffff;
+    font-size:2.5em;
+    font-style: italic;
+    font-weight: 100;
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+}
+nav{
+    background-color: #6da9ed;
+    margin-bottom: 2em;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: inline-block;
+    width: 16.3%;
+}
+nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 0.2em 0.4em;
+}
+nav ul li a:hover{
+    background-color: rgba(0,0,0,0,0.3);
+}
+nav ul li a.active{
+    background-color: #4c76a5;
+}
+
+footer{
+    background-color: #ccc;
+    clear: both;
+    color: #333;
+    padding: 3em 0;
+    margin-top: 2em;
+    text-align: center;
+}
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+}
+h2{
+    color: #2e64a1;
+    font-weight: 400;
+    margin: 0 0 1em;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+/*------------- Home -------------*/
+.homeimg{
+    margin-bottom: 1.5em;
+}
+.columns{
+    overflow: hidden;
+}
+.welcome, .testimonials{
+    box-sizing: border-box;
+}
+.welcome{
+    width: 75%;
+    padding-right: 2em;
+}
+.testimonials{
+    width: 25%;
+}
+.testimony{
+    background-color: #ccc;
+    padding: 1em;
+} 
+.testimony .quote{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.4em;
+    display: block;
+}
+.testimony .author{
+    font-size: 0.7em;
+    text-align: center;
+    margin: 1em 0;
+    display: block;
+}
+/*------------- Nosotros -------------*/
+.history p{
+    font-size: 0.8em;
+}
+.people{
+    overflow: hidden;
+}
+.person{
+    width: 18%;
+    border: 1px solid #808080;
+    border-radius: 0.25em;
+    float: left;
+    margin-left: 2.25%;
+    box-sizing: border-box;
+    text-align: center;
+}
+.person img{
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    margin: 0.8em 0 1em;
+    max-width: 70%;
+}
+.person h5,
+.person h6{
+    text-align: center;
+    font-weight: normal;
+    color: #2e64a1;
+    margin: 0;
+}
+.person h5{
+    font-size: 0.9em;
+}
+.person h6{
+    font-size: 0.8;
+    font-style: italic;
+}
+.person p{
+    font-size: 0.7em;
+    color: #444;
+    margin: 0 1em 1em;
+}
+.person:first-child{
+    margin-left: 0;
+}
+/*------------- Servicios -------------*/
+.service{
+    border: 1px solid #808080;
+    border-radius: 0.7em;
+    margin: 1em 0;
+    padding: 1em;
+    overflow: hidden;
+}
+.service .info{
+    width: 75%;
+}
+.service .info h4{
+    color: #2e64a1;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: 500;
+    margin: 0 0 1em;
+    border-bottom: 1px solid #2e64a1;
+    padding-bottom: 0.5em;
+}
+.service .info p{
+    font-size: 0.8em;
+    line-height: 1.2em;
+}
+.service img{
+    border-radius: 0.8em;
+}
+.servvice:nth-child(even) img{
+    float: right;
+    margin: 0 0 0 1em;
+}
+.service:nth-child(even) .info{
+    float: left;
+}
+.servvice:nth-child(odd) img{
+    float: left;
+    margin: 0 1em 0 0;
+}
+.service:nth-child(odd) .info{
+    float: right;
+}
