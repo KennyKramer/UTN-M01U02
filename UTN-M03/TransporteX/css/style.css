@@ -169,14 +169,14 @@ h2{
 .service img{
     border-radius: 0.8em;
 }
-.servvice:nth-child(even) img{
+.service:nth-child(even) img{
     float: right;
     margin: 0 0 0 1em;
 }
 .service:nth-child(even) .info{
     float: left;
 }
-.servvice:nth-child(odd) img{
+.service:nth-child(odd) img{
     float: left;
     margin: 0 1em 0 0;
 }
