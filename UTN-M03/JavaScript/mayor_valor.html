@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+
+<body>
+	<script>
+		var values = [23, 53, 205, 17, 8];
+		var maxval = 0;
+
+		for (var n=0, l=values.length; n<l; n++){
+			if (maxval<values[n]){
+				maxval=values[n];
+			}
+		}
+		document.write(maxval);
+	</script>
+</body>
+
+</html>
