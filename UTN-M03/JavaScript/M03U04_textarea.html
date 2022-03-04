@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="M03U04_textarea.css">
+</head>
+
+<body>
+    <form>
+        <p>Contador de caracteres</p>
+        <textarea id="textarea" rows="10" cols="50" maxlength="400" placeholder="Escriba aqui..."></textarea>
+        <input onclick="resetcount()" type="reset" value="Restaurar">
+        <p id="counter">0/400</p>
+    </form>
+
+    <script>
+        function resetcount(){
+            let count = 0;
+            document.getElementById("counter").innerHTML = count + "/400";
+        };
+        var textarea = document.getElementById("textarea");
+        textarea.addEventListener("input", () => {
+            let count = (textarea.value).length;
+            document.getElementById("counter").innerHTML = count + "/400";
+        });
+        
+        
+        
+    </script>
+</body>
+
+</html>
