@@ -1,4 +1,5 @@
 import React from "react";
+import '../styles/components/pages/NovedadesPage.css';
 
 const NovedadesPage = (props) => {
     return (
@@ -7,7 +8,7 @@ const NovedadesPage = (props) => {
             <h3>titulo</h3>
             <h4>Subtitulo</h4>
             <p>Cuerpo</p>
-            </section>
+        </section>
     );
 }
 
