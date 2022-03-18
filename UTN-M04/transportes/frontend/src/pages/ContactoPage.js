@@ -1,6 +1,6 @@
 import React from "react";
 
-const Contacto = (props) => {
+const ContactoPage = (props) => {
     return (
         <main className="holder">
             <div className="columna contacto">

@@ -11,4 +11,4 @@ const NovedadesPage = (props) => {
     );
 }
 
-export default Novedades;
+export default NovedadesPage;
