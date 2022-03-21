@@ -3,8 +3,7 @@
     padding: 0.625em;
     box-sizing: border-box;
 }
-/* Separado con coma rev*/
-.columna .contacto {
+.columna, .contacto {
     border-right: 1px solid #ddd;
     float: left;
 }
