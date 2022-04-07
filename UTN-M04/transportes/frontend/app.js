@@ -30,11 +30,6 @@ app.use('/nosotros', nosotrosRouter);
 app.use('/novedades', novedadesRouter);
 app.use('/contacto', contactoRouter);
 
-// prueba M04U03
-app.get('/prueba', function(req, res, next){
-  res.send('Hola soy una pagina de prueba')
-});
-
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
