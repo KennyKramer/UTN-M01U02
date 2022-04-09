@@ -20,6 +20,20 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+/* // Login
+app.use(session({
+  secret: 'in53r7y0urP4s5w0rdH3r3',
+  resave : false,
+  saveUninitialized: true
+})); */
+
+
+app.get('/', function(req, res) {
+  var conocido = Boolean(req.session.nombre);
+
+  res.render('')
+})
+
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
@@ -29,6 +43,7 @@ app.use('/admin/login', loginRouter);
 app.use(function(req, res, next) {
   next(createError(404));
 });
+
 
 // error handler
 app.use(function(err, req, res, next) {
