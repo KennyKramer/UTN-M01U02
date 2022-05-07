@@ -1,1 +1,9 @@
-<h2>Proximamente el LOGIN</h2>
+<h1>{{tittle}}</h1>
+{{/if}}
+
+{{#unless conocido}}
+  <p>No te conozco</p>
+  <form action="/ingresar" method="post>
+    <input type="text" name="nombre"><button>ingresar</button>
+  </form>
+{{/unless}}
